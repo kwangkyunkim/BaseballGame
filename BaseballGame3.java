@@ -41,6 +41,7 @@ public class BaseballGame3 {
             counts++;
 
             System.out.println(counts + "번쨰 시도:" + strikes + "S" + ball + "B");
+
             if (strikes == 3) {
                 System.out.println(counts + "번만에 맞히셨습니다.");
                 System.out.println("게임을 종료합니다.");
